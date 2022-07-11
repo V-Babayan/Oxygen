@@ -31,11 +31,8 @@ figure {
   margin-inline: 0;
 }
 
-/* Video-controlls
-================== */
-video::-webkit-media-controls-bar {
-  background: red;
-  color: green;
+progress {
+  appearance: none;
 }
 
 html, body {
@@ -47,6 +44,12 @@ body {
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
   background-color: #fff;
+}
+
+/* Video-controlls
+================== */
+video[controls]::-webkit-media-controls {
+  background-color: red;
 }
 
 .wrapper {
@@ -199,7 +202,7 @@ body {
   to { top: 0; }
 }
 
-/* Main
+/* MAIN
 ========== */
 
 /* About us
