@@ -46,12 +46,6 @@ body {
   background-color: #fff;
 }
 
-/* Video-controlls
-================== */
-video[controls]::-webkit-media-controls {
-  background-color: red;
-}
-
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -241,6 +235,10 @@ video[controls]::-webkit-media-controls {
   transform: translateY(14px);
 }
 
+.title-decor-cliped.title-decor::after {
+  top: 75px;
+}
+
 /* Text
 ======= */
 .text {
@@ -272,11 +270,6 @@ video[controls]::-webkit-media-controls {
   overflow-x: hidden;
   margin-bottom: 90px;
 }
-
-.our-expertise .title-decor:after {
-  top: 75px;
-}
-
 
 .skills {
   display: flex;
@@ -414,9 +407,6 @@ video[controls]::-webkit-media-controls {
   max-width: 252px;
   min-height: 93px;
 }
-.portfolio .title-decor::after {
-  top: 75px;
-}
 
 .portfolio__menu {
   font-weight: 600;
@@ -551,6 +541,7 @@ video[controls]::-webkit-media-controls {
 ============== */
 .video-block {
   max-width: 100%;
+  max-height: 324px;
 }
 
 .video-block__video {
