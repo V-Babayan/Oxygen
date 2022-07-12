@@ -541,9 +541,36 @@ body {
 ============== */
 .video-block {
   max-width: 100%;
-  max-height: 324px;
+  padding: 0 15px;
 }
 
 .video-block__video {
   width: 100%;
+}
+
+/* Facts
+======== */
+.facts__container {
+  margin: 165px 225px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.facts__property {
+  text-align: center;
+}
+.facts__number {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.21;
+  color: #242121;
+}
+.facts__name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: #00B2A0;
 }

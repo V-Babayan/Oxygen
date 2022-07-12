@@ -18,12 +18,12 @@ font-family: 'Raleway', sans-serif; -->
   <!-- Header -->
   <header class="header">
     <section class="header__top">
-      <section class="header__inner">
-        <section class="header__logo">
+      <div class="header__inner">
+        <div class="header__logo">
           <a class="header__link" href="#">
             <img class="header__img" src="./img/header/Logo.svg" alt="Logo">
           </a>
-        </section>
+        </div>
         <nav class="header__menu menu">
           <ul class="menu__list">
             <li class="menu__item">
@@ -46,14 +46,14 @@ font-family: 'Raleway', sans-serif; -->
             </li>
           </ul>
         </nav>
-      </section>  <!-- ./header__inner -->
+      </div>  <!-- ./header__inner -->
     </section> <!-- ./header__top -->
     <section class="header__content">
-      <section class="header__content-inner">
+      <article class="header__content-inner">
         <h1 class="header__content-title">OXYGEN</h1>
         <p class="header__content-description">STARTER UI KIT</p>
         <div class="header__content-decor"></div>
-      </section>
+      </article>
     </section>
   </header>
 
@@ -61,18 +61,18 @@ font-family: 'Raleway', sans-serif; -->
   <main class="main">
     <!-- About us -->
     <section class="about-us">
-      <section class="about-us__container">
+      <div class="about-us__container">
         <h4 class="about-us__title title-decor">About Us</h4>
-        <section class="about-us__text text">
-          <article class="about-us__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi totam culpa, dolorum asperiores iusto quidem, nesciunt hic eaque blanditiis enim, id maiores nam nobis dignissimos aliquam ad minus nisi. In, fuga blanditiis non cum cupiditate dolore, accusantium odio doloremque quibusdam dignissimos nemo sed nisi, similique, mollitia et! Autem laborum sint tenetur, earum facere veniam?</article>
-          <article class="about-us__paragraph">Sunt fugiat veniam consectetur soluta quia ex tempora quaerat, perferendis! Itaque a praesentium saepe ex distinctio aliquid quis laborum sit, porro dolor odio, iste eos laboriosam dolorum maiores harum reiciendis vitae doloribus illum voluptatibus nobis maxime assumenda ipsam tempora fugiat. Perspiciatis quibusdam hic cum tempore.</article>
-        </section>
-      </section> <!-- ./about-us__container -->
+        <article class="about-us__text text">
+          <p class="about-us__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi totam culpa, dolorum asperiores iusto quidem, nesciunt hic eaque blanditiis enim, id maiores nam nobis dignissimos aliquam ad minus nisi. In, fuga blanditiis non cum cupiditate dolore, accusantium odio doloremque quibusdam dignissimos nemo sed nisi, similique, mollitia et! Autem laborum sint tenetur, earum facere veniam?</p>
+          <p class="about-us__paragraph">Sunt fugiat veniam consectetur soluta quia ex tempora quaerat, perferendis! Itaque a praesentium saepe ex distinctio aliquid quis laborum sit, porro dolor odio, iste eos laboriosam dolorum maiores harum reiciendis vitae doloribus illum voluptatibus nobis maxime assumenda ipsam tempora fugiat. Perspiciatis quibusdam hic cum tempore.</p>
+        </article>
+      </div> <!-- ./about-us__container -->
     </section> <!-- ./about-us -->
 
     <!-- Our-expertise -->
     <section class="our-expertise">
-      <section class="our-expertise__container">
+      <div class="our-expertise__container">
         <h4 class="our-expertise__title title-decor title-decor-cliped">Our Expertise</h4>
         <!-- skills -->
         <section class="skills">
@@ -80,77 +80,77 @@ font-family: 'Raleway', sans-serif; -->
 
             <progress id="branding" value="90" max="100" class="skills-progress__line"></progress>
             <label for="branding" class="skills-progress__info">
-              <article class="skills-progress__name">Branding</article>
-              <article class="skills-progress__percent">90%</article>
+              <span class="skills-progress__name">Branding</span>
+              <span class="skills-progress__percent">90%</span>
             </label>
 
             <progress id="design" value="80" max="100" class="skills-progress__line"></progress>
             <label for="design" class="skills-progress__info">
-              <article class="skills-progress__name">Design</article>
-              <article class="skills-progress__percent">80%</article>
+              <span class="skills-progress__name">Design</span>
+              <span class="skills-progress__percent">80%</span>
             </label>
 
             <progress id="development" value="85" max="100" class="skills-progress__line"></progress>
             <label for="development" class="skills-progress__info">
-              <article class="skills-progress__name">Development</article>
-              <article class="skills-progress__percent">85%</article>
+              <span class="skills-progress__name">Development</span>
+              <span class="skills-progress__percent">85%</span>
             </label>
-
           </section> <!-- ./skills-progress -->
-          <section class="skills-text text">
-            <article class="skills-text__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi totam culpa, dolorum asperiores iusto quidem, nesciunt hic eaque blanditiis enim, id maiores nam nobis dignissimos aliquam ad minus nisi.</article>
-            <article class="skills-text__paragraph">Autem laborum sint tenetur, earum facere veniam? Sunt fugiat veniam consectetur soluta quia ex tempora quaerat, perferendis! Itaque a praesentium saepe ex distinctio aliquid quis</article>
-          </section>
+
+          <article class="skills-text text">
+            <p class="skills-text__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi totam culpa, dolorum asperiores iusto quidem, nesciunt hic eaque blanditiis enim, id maiores nam nobis dignissimos aliquam ad minus nisi.</p>
+            <p class="skills-text__paragraph">Autem laborum sint tenetur, earum facere veniam? Sunt fugiat veniam consectetur soluta quia ex tempora quaerat, perferendis! Itaque a praesentium saepe ex distinctio aliquid quis</p>
+          </article>
         </section> <!-- ./skills -->
 
         <section class="services">
           <section class="services__item item">
             <img class="item__icon" src="./img/services/services-1.svg" alt="Graphic Design">
-            <section class="item__info">
+            <article class="item__info">
               <h5 class="item__title">Graphic Design</h5>
               <p class="item__description">Lorem Ipsum Proin gravida nibh vel  velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
-            </section>
+            </article>
           </section>
 
           <section class="services__item item">
             <img class="item__icon" src="./img/services/services-2.svg" alt="WEB Development">
-            <section class="item__info">
+            <article class="item__info">
               <h5 class="item__title">WEB Development</h5>
               <p class="item__description">Lorem Ipsum Proin gravida nibh vel  velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
-            </section>
+            </article>
           </section>
 
           <section class="services__item item">
             <img class="item__icon" src="./img/services/services-3.svg" alt="Marketing">
-            <section class="item__info">
+            <article class="item__info">
               <h5 class="item__title">Marketing</h5>
               <p class="item__description">Lorem Ipsum Proin gravida nibh vel  velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
-            </section>
+            </article>
           </section>
         </section> <!-- ./services -->
-      </section> <!-- ./our-expertise__container -->
+      </div> <!-- ./our-expertise__container -->
     </section> <!-- ./our-expertise -->
 
     <!-- Vision -->
     <section class="vision">
       <img class="vision__image" src="./img/vision-img.jpg" alt="">
-      <section class="vision__container">
+      <div class="vision__container">
         <h4 class="vision__title title-decor">Let's make magic.</h4>
-        <section class="vision__text">
-          <article class="vision__text--paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero veniam odio itaque. Molestiae aut dicta accusantium quod, modi ad alias enim dolor delectus iusto! Inventore tempora labore nobis doloribus optio nulla sit corrupti nostrum, tempore debitis pariatur minus maiores velit, autem ex eum distinctio error fugit. Itaque voluptatum quam veritatis fuga impedit nulla dolor.</article>
-          <article class="vision__text--paragraph">Nam dignissimos, ratione odit doloribus cum porro, aut. Ipsum nisi odio voluptatum, et, reprehenderit accusamus, est provident debitis dicta ullam esse assumenda, odit? Alias architecto enim pariatur libero ipsam mollitia maiores minus quibusdam numquam perspiciatis eveniet sit dolores eligendi inventore, ea voluptatum debitis iure, repellendus iste culpa! Voluptatibus quam ipsum nisi odit deserunt qui, consectetur ducimus, quis officia quaerat sapiente dolores, ad libero! Tenetur provident, omnis.</article>
-        </section>
-      </section>
+        <article class="vision__text">
+          <p class="vision__text--paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero veniam odio itaque. Molestiae aut dicta accusantium quod, modi ad alias enim dolor delectus iusto! Inventore tempora labore nobis doloribus optio nulla sit corrupti nostrum, tempore debitis pariatur minus maiores velit, autem ex eum distinctio error fugit. Itaque voluptatum quam veritatis fuga impedit nulla dolor.</p>
+          <p class="vision__text--paragraph">Nam dignissimos, ratione odit doloribus cum porro, aut. Ipsum nisi odio voluptatum, et, reprehenderit accusamus, est provident debitis dicta ullam esse assumenda, odit? Alias architecto enim pariatur libero ipsam mollitia maiores minus quibusdam numquam perspiciatis eveniet sit dolores eligendi inventore, ea voluptatum debitis iure, repellendus iste culpa! Voluptatibus quam ipsum nisi odit deserunt qui, consectetur ducimus, quis officia quaerat sapiente dolores, ad libero! Tenetur provident, omnis.</p>
+        </article>
+      </div>
     </section>
 
     <!-- Portfolio -->
     <section class="portfolio">
       <section class="portfolio__header">
-        <section class="portfolio__container">
+        <div class="portfolio__container">
 
           <h2 class="portfolio__title title-decor title-decor-cliped">Portfolio</h2>
 
-          <nav class="portfolio__menu menu">
+          <section class="portfolio__menu menu">
             <ul class="menu__list">
 
               <li class="menu__item">
@@ -170,9 +170,9 @@ font-family: 'Raleway', sans-serif; -->
               </li>
 
             </ul>
-          </nav>
+          </section>
 
-        </section>
+        </div> <!-- ./portfolio__container -->
       </section> <!-- ./portfolio__header -->
 
       <section class="portfolio__galery gallery">
@@ -291,6 +291,32 @@ font-family: 'Raleway', sans-serif; -->
     <section class="video-block">
       <video class="video-block__video" src="./img/video.mp4" controls></video>
     </section>
+
+    <!-- Facts -->
+    <section class="facts">
+      <div class="facts__container">
+        <article class="facts__property">
+          <span class="facts__number">305</span>
+          <span class="facts__name">Web Designs</span>
+        </article>
+
+        <article class="facts__property">
+          <span class="facts__number">220</span>
+          <span class="facts__name">Logo Designs</span>
+        </article>
+
+        <article class="facts__property">
+          <span class="facts__number">52</span>
+          <span class="facts__name">Print Designs</span>
+        </article>
+        
+        <article class="facts__property">
+          <span class="facts__number">88</span>
+          <span class="facts__name">Mobile Apps</span>
+        </article>
+      </div>
+    </section>
+
   </main>
 
   <!-- Footer -->
