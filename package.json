@@ -1,0 +1,14 @@
+{
+    "name": "Oxygen",
+    "version": "1.0.0",
+    "homepage": "https://github.com/V-Babayan/Oxygen/blob/main/README.md",
+    "author": "Vladislav Babayan",
+    "contributors": [
+        "Martik Avagyan <martikavagyan1@gmail.com> (https://github.com/m-avagyan)"
+    ],
+    "bugs": {
+        "url": "https://github.com/V-Babayan/Oxygen/issues"
+    },
+    "license": "MIT",
+    "private": true,
+}
