@@ -78,7 +78,7 @@ body {
 .header__inner {
   max-width: 1330px;
   margin: 0 auto;
-  padding: 26px 0;
+  padding: 1.625em 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -96,10 +96,16 @@ body {
 
 /* Menu
 ======= */
+
+.header__menu {
+  font-weight: 700;
+  letter-spacing: .05em;
+}
+
 .menu__list {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  gap: 3.125em;
 }
 
 .menu__item {
@@ -110,21 +116,22 @@ body {
   content: "";
   display: block;
   width: 0;
-  border-top: 2px solid #FCBB08;
+  border-top: .125em solid #FCBB08;
   position: absolute;
 
   left: 50%;
   top: 100%;
-  transform: translate(-50%, 9px);
+  transform: translate(-50%, .5625em);
   transition: width .2s linear;
 }
 
 .menu__item:hover::after {
-  width: 50px;
+  width: 3.125em;
 }
+
 .menu__link {
   font-family: 'Raleway', sans-serif;
-  font-size: 12px;
+  font-size: .75em;
   line-height: 1.15;
   color: #373A39;
   
@@ -136,10 +143,6 @@ body {
   color: #1b1d1c;
 }
 
-.header__menu {
-  font-weight: 700;
-  letter-spacing: .6px;
-}
 
 /* Header content
 ================= */
@@ -149,7 +152,7 @@ body {
   background-size: cover;
 }
 .header__content-inner {
-  padding: 215px 0 61px;
+  padding: 13.4375em 0 3.8125em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -158,20 +161,20 @@ body {
 }
 
 .header__content-title {
-  font-size: 100px;
+  font-size: 6.25em;
   line-height: 1.22;
   color: #fff;
-  margin-bottom: 19px;
+  margin-bottom: .19em;
   text-transform: uppercase;
 }
 
 .header__content-description {
-  font-size: 16px;
+  font-size: 1em;
   line-height: 1.25;
   color: #FCBB08;
   letter-spacing: 2.74286px;
   text-transform: uppercase;
-  margin-bottom: 180px;
+  margin-bottom: 11.25em;
 }
 
 .header__content-decor {
@@ -195,10 +198,7 @@ body {
   left: 50%;
   top: 0;
   transform: translate(-50%, 6px);
-  animation-iteration-count: infinite;
-  animation-name: scroll;
-  animation-duration: 4s;
-  animation-timing-function: linear;
+  animation: scroll 4s infinite linear;
 }
 
 @keyframes scroll {
@@ -450,7 +450,7 @@ body {
 
 .block__container::after {
   content: "";
-  height: calc(100% - 4px);
+  height: calc(100% - 5px);
   width: 100%;
   position: absolute;
   top: 0;
