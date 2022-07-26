@@ -2,9 +2,7 @@
     "name": "Oxygen",
     "version": "1.0.0",
     "homepage": "https://github.com/V-Babayan/Oxygen/blob/main/README.md",
-    "author": "Vladislav Babayan",
-    "email": "vladislavbabayan@gmail.com",
-    "github": "V-Babayan",
+    "author": "Vladislav Babayan <vladislavbabayan@gmail.com> <https://github.com/V-Babayan>", 
     "contributors": [
         "Martik Avagyan <martikavagyan1@gmail.com> (https://github.com/m-avagyan)"
     ],
@@ -12,5 +10,5 @@
         "url": "https://github.com/V-Babayan/Oxygen/issues"
     },
     "license": "MIT",
-    "private": true,
+    "private": true
 }
