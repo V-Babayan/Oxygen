@@ -250,6 +250,26 @@ body {
   .title-decor-cliped.title-decor::after {
     top: 75px;
   }
+
+  .our-expertise__title {
+    width: 394px;
+  }
+
+  .portfolio__title {
+    width: 252px;
+  }
+
+  .our-team__title {
+    width: 285px;
+  }
+
+  .pricing-plans__title {
+    width: 372px;
+  }
+
+  .contact__title {
+    width: 360px;
+  }
 }
 
 /* Text
@@ -262,11 +282,7 @@ body {
   line-height: 1.7;
   color: #373a39;
 }
-@media screen and (max-width: 991.98px) {
-  .text {
-    max-width: none;
-  }
-}
+
 
 /* About us
 ========= */
@@ -295,21 +311,28 @@ body {
 ================ */
 
 .our-expertise__title {
-  margin-bottom: 90px;
+  margin-bottom: 5.625rem;
 }
 
 .skills {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  margin-bottom: 110px;
+  margin-bottom: 6.875rem;
 }
 
 .skills-progress {
-  flex: 1 1 auto;
+  padding-top: .5em;
+  flex: 1 0 370px;
+  min-width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.skills__item {
+  display: flex;
+  flex-direction: column;
 }
 
 .skills-progress__line {
@@ -335,9 +358,6 @@ body {
   color: #1d1d1d;
 }
 
-.skills-text {
-  transform: translateY(-10px)
-}
 .skills-text__paragraph:first-child {
   margin-bottom: 15px;
 }
@@ -347,19 +367,21 @@ body {
 .services {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 27px;
 }
 
 .item {
   display: flex;
-  flex: 1 1 auto;
-  justify-content: space-between;
+  flex: 1 1 370px;
+  gap: 35px;
 }
 .item__icon {
   height: 55px;
   width: 50px;
 }
 .item__info {
-  max-width: 285px;
+  max-width: 400px;
 }
 .item__title {
   font-family: 'Raleway', sans-serif;
@@ -1045,6 +1067,18 @@ footer {
     --container-length: 960px;
   }
 
+  .title-decor {
+    text-align: center;
+  }
+
+  .title-decor-cliped {
+    font-size: 48px
+  }
+
+  .text {
+    max-width: none;
+  }
+
   .header__inner {
     position: relative;
   }
@@ -1137,6 +1171,14 @@ footer {
     align-self: stretch;
     margin-bottom: .75rem;
   }
+
+  .skills-progress__line {
+    height: 10px;
+  }
+  .skills-progress__line[max]::-webkit-progress-bar,
+  .skills-progress__line[value]::-webkit-progress-value {
+    border-radius: 5px;
+  }
 }
 /* TABLET */
 @media screen and (max-width: 767.98px) {
@@ -1146,7 +1188,30 @@ footer {
   }
   .about-us__title {
     margin-bottom: .75rem;
+  }
+
+  .skills {
+    padding-top: 0;
+    flex-direction: column;
+  }
+  .skills-progress {
+    flex-basis: 150px;
+  }
+
+  .our-expertise__container {
+    padding: 4rem .935rem 5rem;
+  }
+  .our-expertise__title {
+    margin-bottom: 2.5rem;
+  }
+
+  .item__icon {
+    transform: scale(1.2);
     align-self: center;
+  }
+
+  .item__info {
+    max-width: none;
   }
 }
 /* MOBILE */
@@ -1158,6 +1223,17 @@ footer {
   .about-us__title {
     font-size: 1.75em;
   }
+
+  .skills-progress {
+    flex-basis: 120px;
+  }
+
+  .our-expertise__container {
+    padding: 2rem .935rem 2.5rem;
+  }
+  .our-expertise__title {
+    margin-bottom: 2rem;
+  }
 }
 
 /* SMALL MOBILE */
@@ -1165,27 +1241,8 @@ footer {
   .header__content {
     font-size: .45em;
   }
-}
 
-/* For title decor clipped */
-@media screen and (min-width: 992px) {
-  .our-expertise__title {
-    width: 394px;
-  }
-
-  .portfolio__title {
-    width: 252px;
-  }
-
-  .our-team__title {
-    width: 285px;
-  }
-
-  .pricing-plans__title {
-    width: 372px;
-  }
-
-  .contact__title {
-    width: 360px;
+  .title-decor-cliped {
+    font-size: 32px
   }
 }
