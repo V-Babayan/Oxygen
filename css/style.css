@@ -295,7 +295,6 @@ body {
 ================ */
 
 .our-expertise__title {
-  width: 394px;
   margin-bottom: 90px;
 }
 
@@ -417,10 +416,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.portfolio__title {
-  width: 252px;
 }
 
 .portfolio__menu {
@@ -723,7 +718,7 @@ body {
 }
 
 .our-team__title {  
-  width: 285px;
+
   margin: 120px 0;
 }
 
@@ -781,8 +776,6 @@ body {
 }
 
 .pricing-plans__title {
-  width: 372px;
-
   margin-bottom: 90px;
 }
 
@@ -874,8 +867,6 @@ body {
   margin-right: 100px;
 }
 .contact__title {
-  width: 360px;
-
   margin-bottom: 95px;
 }
 
@@ -1173,5 +1164,28 @@ footer {
 @media screen and (max-width: 479.98px) {
   .header__content {
     font-size: .45em;
+  }
+}
+
+/* For title decor clipped */
+@media screen and (min-width: 992px) {
+  .our-expertise__title {
+    width: 394px;
+  }
+
+  .portfolio__title {
+    width: 252px;
+  }
+
+  .our-team__title {
+    width: 285px;
+  }
+
+  .pricing-plans__title {
+    width: 372px;
+  }
+
+  .contact__title {
+    width: 360px;
   }
 }
