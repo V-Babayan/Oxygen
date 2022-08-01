@@ -368,7 +368,7 @@ body {
   max-width: 770px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: .875em;
+  font-size: 14px;
   line-height: 1.7;
   color: #373a39;
 }
@@ -384,7 +384,6 @@ body {
 
   .text {
     max-width: none;
-    font-size: 1em;
   }
 }
 @media screen and (max-width: 479.98px) {
@@ -566,13 +565,16 @@ body {
   flex: 1 1 370px;
   gap: 35px;
 }
+
 .item__icon {
   height: 55px;
   width: 50px;
 }
+
 .item__info {
   max-width: 450px;
 }
+
 .item__title {
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
@@ -584,6 +586,7 @@ body {
 
   margin-bottom: 14px;
 }
+
 .item__description {
   color: #777777;
 }
@@ -597,6 +600,7 @@ body {
     max-width: none;
   }
 }
+
 /* Vision
 ========= */
 .vision {
@@ -605,23 +609,87 @@ body {
   justify-content: center;
   gap: 130px;
 }
-.vision__image {
-  
+
+.vision__image-block {
+  flex: 0 1 705px;
 }
+
+.vision__image {
+  max-width: 100%;
+}
+
 .vision__inner {
-  padding: 100px 0 180px;
-  max-width: 470px;
+  padding: 6.25rem 0 11.25rem;
+  flex: 0 0 470px;
 }
 
 .vision__title {
-  font-size: 60px;
-  line-height: 1.25;
-
-  margin-bottom: 85px;
+  margin-bottom: 5.3rem;
 }
 
 .vision__text--paragraph:first-child {
-  margin-bottom: 25px;
+  margin-bottom: 1.56rem;
+}
+@media screen and (min-width: 992px) {
+  .vision__image-block {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .vision__image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 705px;
+  }
+
+  .vision__inner {
+    padding-right: .65rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .vision {
+    gap: 3.75rem;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .vision {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 4rem 0.75rem 5rem;
+  }
+
+  .vision__image-block,
+  .vision__inner {
+    padding: 0 .75rem;
+  }
+
+  .vision__image-block {
+    align-self: stretch;
+    flex-basis: auto;
+    max-width: 100%;
+  }
+
+  .vision__title {
+    margin-bottom: 2rem;
+  }
+
+  .vision__image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .vision {
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .vision {
+    padding: 2rem .75rem 2.5rem;
+  }
 }
 
 /* Portfolio 
