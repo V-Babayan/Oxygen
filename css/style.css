@@ -1,5 +1,5 @@
 :root {
-  --container-length: 1200px;
+  --container-length: 75rem;
 }
 
 *, *::after, *::before {
@@ -400,6 +400,7 @@ body {
 }
 
 .about-us__container {
+  padding: 8.9rem .95rem 10rem;
   display: flex;
   justify-content: space-between;
   gap: 30px;
@@ -414,6 +415,39 @@ body {
 
 .about-us__paragraph:first-child {
   margin-bottom: 25px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .about-us {
+    font-size: .8em;
+  }
+  .about-us__container {
+    padding: 3.5rem .95rem 5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-us__title {
+    align-self: stretch;
+    margin-bottom: .75rem;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .about-us__container {
+    gap: 0;
+    padding: 2.25rem .95rem 2.5rem;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .about-us__container {
+    padding: 1.125rem .625rem 1.25rem;
+  }
+
+  .about-us__title {
+    font-size: 2em;
+  }
 }
 
 /* Our-expertise
@@ -1172,20 +1206,6 @@ footer {
     --container-length: 960px;
   }
 
-  .about-us {
-    font-size: .8em;
-  }
-  .about-us__container {
-    padding: 3.5rem .625rem 5rem;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-us__title {
-    align-self: stretch;
-    margin-bottom: .75rem;
-  }
-
   .skills-progress__line {
     height: 10px;
   }
@@ -1196,14 +1216,6 @@ footer {
 }
 /* TABLET */
 @media screen and (max-width: 767.98px) {
-  .about-us__container {
-    gap: 0;
-    padding: 2.25rem .625rem 2.5rem;
-  }
-  .about-us__title {
-    margin-bottom: .75rem;
-  }
-
   .skills {
     padding-top: 0;
     flex-direction: column;
@@ -1230,13 +1242,7 @@ footer {
 }
 /* MOBILE */
 @media screen and (max-width: 575.98px) {
-  .about-us__container {
-    padding: 1.125rem .625rem 1.25rem;
-  }
-
-  .about-us__title {
-    font-size: 1.75em;
-  }
+  
 
   .skills-progress {
     flex-basis: 120px;
@@ -1252,5 +1258,5 @@ footer {
 
 /* SMALL MOBILE */
 @media screen and (max-width: 479.98px) {
-  
+
 }
