@@ -1179,18 +1179,20 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.our-team__title {  
+.our-team__container {
+  padding: 7.5rem .75rem 10.3125rem;
+}
 
-  margin: 120px 0;
+.our-team__title {
+  margin-bottom: 7.5rem;
 }
 
 .our-team__content {
   width: 100%;
   display: flex;
-
-  gap: 30px;
-
-  margin-bottom: 165px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.875rem;
 }
 
 .profile:hover {
@@ -1203,7 +1205,7 @@ body {
 }
 
 .profile__description {
-  margin-top: 30px;
+  margin-top: 1.875rem;
   text-align: center;
 }
 
@@ -1226,6 +1228,39 @@ body {
   font-size: 12px;
   font-weight: 300;
   line-height: 1.25;
+}
+@media screen and (max-width: 1200px) {
+  .profile {
+    width: calc(50% - 1.875rem);
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .our-team__container {
+    padding: 3.5rem 1.5rem 5rem;
+  }
+
+  .our-team__title {
+    margin-bottom: 3.5rem;
+  }
+
+  .profile:hover {
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .profile {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 479.98px) {
+  .our-team__container {
+    padding: 1.5rem 1.5rem 2.5rem;
+  }
+  
+  .our-team__title {
+    margin-bottom: 1.5rem;
+  }
 }
 
 /* Pricing and plans
