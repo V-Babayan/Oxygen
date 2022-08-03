@@ -1266,19 +1266,19 @@ body {
 /* Pricing and plans
 ==================== */
 .pricing-plans {
-  padding-top: 145px;
-  padding-bottom: 160px;
+  padding: 9rem .95rem 10rem;
 
   background: #f6f8fa;
 }
 
 .pricing-plans__title {
-  margin-bottom: 90px;
+  margin-bottom: 5.625rem;
 }
 
 .pricing-plans__content {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -1287,7 +1287,7 @@ body {
   color: #242121;
   font-family: 'Open Sans', sans-serif;
 
-  width: calc((var(--container-length) - 60px ) / 3);
+  width: calc(33.333% - 20px);
 }
 
 .sentence__version {
@@ -1351,6 +1351,32 @@ body {
 }
 .sentence__choose:hover {
   color: #524b4b;
+}
+
+@media screen and (max-width: 991.98px) {
+  .pricing-plans {
+    padding: 4rem .95rem 5rem;
+  
+    background: #f6f8fa;
+  }
+  
+  .pricing-plans__title {
+    margin-bottom: 2.5rem;
+  }
+  .sentence {
+    width: calc(50% - 1.25rem);
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .pricing-plans {
+    padding: 2rem .95rem 2rem;
+  
+    background: #f6f8fa;
+  }
+
+  .sentence {
+    width: 100%;
+  }
 }
 
 /* Contact
