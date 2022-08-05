@@ -1286,7 +1286,11 @@ body {
 /* Pricing and plans
 ==================== */
 .pricing-plans {
-  padding: 9rem .95rem 10rem;
+  /* padding: 9rem .95rem 10rem; */
+  padding: 0 .95rem;
+  padding-top: calc(32px + 112 * (100vw - 576px) / 865);
+  padding-bottom: calc(32px + 128 *(100vw - 576px) / 865);
+   
 
   background: #f6f8fa;
 }
@@ -1374,12 +1378,6 @@ body {
 }
 
 @media screen and (max-width: 991.98px) {
-  .pricing-plans {
-    padding: 4rem .95rem 5rem;
-  
-    background: #f6f8fa;
-  }
-  
   .pricing-plans__title {
     margin-bottom: 2.5rem;
   }
@@ -1388,12 +1386,6 @@ body {
   }
 }
 @media screen and (max-width: 575.98px) {
-  .pricing-plans {
-    padding: 2rem .95rem 2rem;
-  
-    background: #f6f8fa;
-  }
-
   .sentence {
     width: 100%;
   }
@@ -1555,6 +1547,9 @@ footer {
 .footer-menu-button span {
   display: none;
 }
+.footer-menu-image {
+  transition: transform 0.2s linear;
+}
 
 .footer-menu__link {
   font-family: 'Montserrat', sans-serif;
@@ -1629,7 +1624,6 @@ footer {
 
   .footer-menu-input:checked ~ label .footer-menu-image {
     transform: rotateX(180deg);
-    transition: transform 0.2s linear;
   }
 
   .footer-menu-input:checked ~ label{
@@ -1672,13 +1666,4 @@ footer {
   .footer__bottom {
     padding: 1rem 0;
   }
-}
-/* MOBILE */
-@media screen and (max-width: 575.98px) {
-  
-}
-
-/* SMALL MOBILE */
-@media screen and (max-width: 479.98px) {
-
 }
