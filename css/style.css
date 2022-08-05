@@ -1378,12 +1378,6 @@ body {
 }
 
 @media screen and (max-width: 991.98px) {
-  .pricing-plans {
-    /* padding: 4rem .95rem 5rem; */
-  
-    background: #f6f8fa;
-  }
-  
   .pricing-plans__title {
     margin-bottom: 2.5rem;
   }
@@ -1392,12 +1386,6 @@ body {
   }
 }
 @media screen and (max-width: 575.98px) {
-  .pricing-plans {
-    /* padding: 2rem .95rem 2rem; */
-  
-    background: #f6f8fa;
-  }
-
   .sentence {
     width: 100%;
   }
