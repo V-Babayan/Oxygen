@@ -1302,7 +1302,6 @@ body {
 /* Pricing and plans
 ==================== */
 .pricing-plans {
-  /* padding: 9rem .95rem 10rem; */
   padding: 0 0.95rem;
   padding-top: calc(32px + 112 * (100vw - 576px) / 865);
   padding-bottom: calc(32px + 128 * (100vw - 576px) / 865);
