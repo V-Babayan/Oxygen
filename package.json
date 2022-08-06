@@ -9,6 +9,9 @@
     "bugs": {
         "url": "https://github.com/V-Babayan/Oxygen/issues"
     },
+    "scripts": {
+        "start": "./deploy.sh"
+    },
     "license": "MIT",
     "private": true
 }
