@@ -18,5 +18,9 @@
   "private": true,
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "engines": {
+    "npm": "6.14.12",
+    "node": "14.16.1"
   }
 }
