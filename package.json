@@ -1,6 +1,10 @@
 {
     "name": "oxygen",
     "version": "0.0.1",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
     "homepage": "https://github.com/V-Babayan/Oxygen/blob/main/README.md",
     "author": "Vladislav Babayan <vladislavbabayan@gmail.com> (https://github.com/V-Babayan)",
     "contributors": [

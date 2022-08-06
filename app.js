@@ -9,7 +9,7 @@ const server = http.createServer((request, response) => {
   fs.readFile(path, (error, data) => {
     if (error) {
       response.writeHead(404);
-      response.end(JSON.stringify(err));
+      response.end(JSON.stringify(error));
     } else {
       response.writeHead(200);
       response.end(data);
