@@ -14,12 +14,9 @@
     }
   };
 
-  document.addEventListener('DOMContentLoaded', () => {
-    const mode = getCurrentMode();
+  const mode = getCurrentMode();
 
-    if (mode === modes.DEVELOPMENT) {
-      console.log('Mode development.');
-      console.log('DOM fully loaded and parsed.');
-    }
-  });
+  if (mode === modes.DEVELOPMENT) {
+    console.log('Mode development.');
+  }
 })();
