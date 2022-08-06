@@ -1,8 +1,8 @@
 {
-    "name": "Oxygen",
-    "version": "1.0.0",
+    "name": "oxygen",
+    "version": "0.0.1",
     "homepage": "https://github.com/V-Babayan/Oxygen/blob/main/README.md",
-    "author": "Vladislav Babayan <vladislavbabayan@gmail.com> (https://github.com/V-Babayan)", 
+    "author": "Vladislav Babayan <vladislavbabayan@gmail.com> (https://github.com/V-Babayan)",
     "contributors": [
         "Martik Avagyan <martikavagyan1@gmail.com> (https://github.com/m-avagyan)"
     ],

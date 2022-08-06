@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oxygen</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300&family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header__top">
+          <div class="header__inner">
+            <div class="header__logo logo">
+              <a class="header__link" href="#">
+                <img class="logo__img" src="./icons/Logo.svg" alt="Logo" />
+              </a>
+            </div>
+
+            <input class="menu__burger" type="checkbox" />
+
+            <nav class="header__menu menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="#">HOME</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">ABOUT US</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">PORTFOLIO</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">OUR TEAM</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">BLOG</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="header__content">
+          <article class="header__content-inner">
+            <h2 class="header__content-title">OXYGEN</h2>
+            <p class="header__content-description">STARTER UI KIT</p>
+            <div class="header__content-decor"></div>
+          </article>
+        </div>
+      </header>
+
+      <main>
+        <div class="about-us">
+          <section class="about-us__container">
+            <h4 class="about-us__title title-decor">About Us</h4>
+            <div class="about-us__text text">
+              <p class="about-us__paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laudantium commodi totam culpa, dolorum asperiores iusto quidem,
+                nesciunt hic eaque blanditiis enim, id maiores nam nobis
+                dignissimos aliquam ad minus nisi. In, fuga blanditiis non cum
+                cupiditate dolore, accusantium odio doloremque quibusdam
+                dignissimos nemo sed nisi, similique, mollitia et! Autem laborum
+                sint tenetur, earum facere veniam?
+              </p>
+              <p class="about-us__paragraph">
+                Sunt fugiat veniam consectetur soluta quia ex tempora quaerat,
+                perferendis! Itaque a praesentium saepe ex distinctio aliquid
+                quis laborum sit, porro dolor odio, iste eos laboriosam dolorum
+                maiores harum reiciendis vitae doloribus illum voluptatibus
+                nobis maxime assumenda ipsam tempora fugiat. Perspiciatis
+                quibusdam hic cum tempore.
+              </p>
+            </div>
+          </section>
+        </div>
+
+        <div class="our-expertise">
+          <section class="our-expertise__container">
+            <h4 class="our-expertise__title title-decor title-decor-cliped">
+              Our Expertise
+            </h4>
+            <div class="skills">
+              <div class="skills-progress">
+                <div class="skills__item">
+                  <progress
+                    id="branding"
+                    value="90"
+                    max="100"
+                    class="skills-progress__line"
+                  ></progress>
+                  <label for="branding" class="skills-progress__info">
+                    <span class="skills-progress__name">Branding</span>
+                    <span class="skills-progress__percent">90%</span>
+                  </label>
+                </div>
+
+                <div class="skills__item">
+                  <progress
+                    id="design"
+                    value="80"
+                    max="100"
+                    class="skills-progress__line"
+                  ></progress>
+                  <label for="design" class="skills-progress__info">
+                    <span class="skills-progress__name">Design</span>
+                    <span class="skills-progress__percent">80%</span>
+                  </label>
+                </div>
+
+                <div class="skills__item">
+                  <progress
+                    id="development"
+                    value="85"
+                    max="100"
+                    class="skills-progress__line"
+                  ></progress>
+                  <label for="development" class="skills-progress__info">
+                    <span class="skills-progress__name">Development</span>
+                    <span class="skills-progress__percent">85%</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="skills-text text">
+                <p class="skills-text__paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Laudantium commodi totam culpa, dolorum asperiores iusto
+                  quidem, nesciunt hic eaque blanditiis enim, id maiores nam
+                  nobis dignissimos aliquam ad minus nisi.
+                </p>
+                <p class="skills-text__paragraph">
+                  Autem laborum sint tenetur, earum facere veniam? Sunt fugiat
+                  veniam consectetur soluta quia ex tempora quaerat,
+                  perferendis! Itaque a praesentium saepe ex distinctio aliquid
+                  quis
+                </p>
+              </div>
+            </div>
+
+            <div class="services">
+              <div class="services__item item">
+                <img
+                  class="item__icon"
+                  src="./icons/services/services-1.svg"
+                  alt="Graphic Design"
+                />
+                <article class="item__info">
+                  <h5 class="item__title">Graphic Design</h5>
+                  <p class="item__description text">
+                    Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.
+                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+                    consequat ipsum
+                  </p>
+                </article>
+              </div>
+
+              <div class="services__item item">
+                <img
+                  class="item__icon"
+                  src="./icons/services/services-2.svg"
+                  alt="WEB Development"
+                />
+                <article class="item__info">
+                  <h5 class="item__title">WEB Development</h5>
+                  <p class="item__description text">
+                    Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.
+                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+                    consequat ipsum
+                  </p>
+                </article>
+              </div>
+
+              <div class="services__item item">
+                <img
+                  class="item__icon"
+                  src="./icons/services/services-3.svg"
+                  alt="Marketing"
+                />
+                <article class="item__info">
+                  <h5 class="item__title">Marketing</h5>
+                  <p class="item__description text">
+                    Lorem Ipsum Proin gravida nibh vel velit auctor aliquet.
+                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+                    consequat ipsum
+                  </p>
+                </article>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="vision">
+          <div class="vision__image-block">
+            <img
+              class="vision__image"
+              src="./images/others/vision-img.jpg"
+              alt=""
+            />
+          </div>
+          <section class="vision__inner">
+            <h4 class="vision__title title-decor">Let's make magic.</h4>
+            <div class="vision__text text">
+              <p class="vision__text--paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
+                veniam odio itaque. Molestiae aut dicta accusantium quod, modi
+                ad alias enim dolor delectus iusto! Inventore tempora labore
+                nobis doloribus optio nulla sit corrupti nostrum, tempore
+                debitis pariatur minus maiores velit, autem ex eum distinctio
+                error fugit. Itaque voluptatum quam veritatis fuga impedit nulla
+                dolor.
+              </p>
+              <p class="vision__text--paragraph">
+                Nam dignissimos, ratione odit doloribus cum porro, aut. Ipsum
+                nisi odio voluptatum, et, reprehenderit accusamus, est provident
+                debitis dicta ullam esse assumenda, odit? Alias architecto enim
+                pariatur libero ipsam mollitia maiores minus quibusdam numquam
+                perspiciatis eveniet sit dolores eligendi inventore, ea
+                voluptatum debitis iure, repellendus iste culpa! Voluptatibus
+                quam ipsum nisi odit deserunt qui, consectetur ducimus, quis
+                officia quaerat sapiente dolores, ad libero! Tenetur provident,
+                omnis.
+              </p>
+            </div>
+          </section>
+        </div>
+
+        <div class="portfolio">
+          <div class="portfolio__header">
+            <section class="portfolio__container">
+              <h2 class="portfolio__title title-decor title-decor-cliped">
+                Portfolio
+              </h2>
+
+              <input
+                class="menu__burger portfolio__menu-controls"
+                type="checkbox"
+              />
+
+              <div class="portfolio__menu menu">
+                <ul class="menu__list">
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">All Branding</a>
+                  </li>
+
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">Branding</a>
+                  </li>
+
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">Photography</a>
+                  </li>
+
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">Illustration</a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+
+          <div class="portfolio__galery gallery">
+            <figure class="block__inner">
+              <img
+                class="block__image"
+                src="./images/gallery/1.jpg"
+                alt="Flamingo"
+              />
+              <figcaption class="block__description">
+                <h3 class="block__title">Occa Cupidatat</h3>
+                <h4 class="block__subtitle">Design</h4>
+              </figcaption>
+            </figure>
+
+            <figure class="block__inner">
+              <img
+                class="block__image"
+                src="./images/gallery/5.jpg"
+                alt="Flamingo"
+              />
+              <figcaption class="block__description">
+                <h3 class="block__title">Occa Cupidatat</h3>
+                <h4 class="block__subtitle">Design</h4>
+              </figcaption>
+            </figure>
+
+            <figure class="block__inner">
+              <img
+                class="block__image"
+                src="./images/gallery/2.jpg"
+                alt="Flamingo"
+              />
+              <figcaption class="block__description">
+                <h3 class="block__title">Occa Cupidatat</h3>
+                <h4 class="block__subtitle">Design</h4>
+              </figcaption>
+            </figure>
+
+            <figure class="block__inner">
+              <img
+                class="block__image"
+                src="./images/gallery/6.jpg"
+                alt="Flamingo"
+              />
+              <figcaption class="block__description">
+                <h3 class="block__title">Occa Cupidatat</h3>
+                <h4 class="block__subtitle">Design</h4>
+              </figcaption>
+            </figure>
+
+            <figure class="block__inner">
+              <img
+                class="block__image"
+                src="./images/gallery/9.jpg"
+                alt="Flamingo"
+              />
+              <figcaption class="block__description">
+                <h3 class="block__title">Occa Cupidatat</h3>
+                <h4 class="block__subtitle">Design</h4>
+              </figcaption>
+            </figure>
+
+            <figure class="block__inner">
+              <img
+                class="block__image"
+                src="./images/gallery/3.jpg"
+                alt="Flamingo"
+              />
+              <figcaption class="block__description">
+                <h3 class="block__title">Occa Cupidatat</h3>
+                <h4 class="block__subtitle">Design</h4>
+              </figcaption>
+            </figure>
+
+            <figure class="block__inner">
+              <img
+                class="block__image"
+                src="./images/gallery/7.jpg"
+                alt="Flamingo"
+              />
+              <figcaption class="block__description">
+                <h3 class="block__title">Occa Cupidatat</h3>
+                <h4 class="block__subtitle">Design</h4>
+              </figcaption>
+            </figure>
+
+            <figure class="block__inner">
+              <img
+                class="block__image"
+                src="./images/gallery/4.jpg"
+                alt="Flamingo"
+              />
+              <figcaption class="block__description">
+                <h3 class="block__title">Occa Cupidatat</h3>
+                <h4 class="block__subtitle">Design</h4>
+              </figcaption>
+            </figure>
+
+            <figure class="block__inner">
+              <img
+                class="block__image"
+                src="./images/gallery/8.jpg"
+                alt="Flamingo"
+              />
+              <figcaption class="block__description">
+                <h3 class="block__title">Occa Cupidatat</h3>
+                <h4 class="block__subtitle">Design</h4>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="portfolio__more">
+            <a class="portfolio__more-link" href="#">View more projects</a>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <q class="testimonial__quotation"
+            >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.</q
+          >
+          <address class="testimonial__author">Gilbert Hammond</address>
+        </div>
+
+        <div class="video-block">
+          <video
+            class="video-block__video"
+            src="./images/video.mp4"
+            controls
+          ></video>
+        </div>
+
+        <div class="facts">
+          <div class="facts__container">
+            <span class="facts__property">
+              <span class="facts__number">305</span>
+              <span class="facts__name">Web Designs</span>
+            </span>
+
+            <span class="facts__property">
+              <span class="facts__number">220</span>
+              <span class="facts__name">Logo Designs</span>
+            </span>
+
+            <span class="facts__property">
+              <span class="facts__number">52</span>
+              <span class="facts__name">Print Designs</span>
+            </span>
+
+            <span class="facts__property">
+              <span class="facts__number">88</span>
+              <span class="facts__name">Mobile Apps</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="featured">
+          <div class="featured__controls controls__prev">
+            <img
+              class="controls__prev-image"
+              src="./icons/featured/Shape.svg"
+              alt=""
+            />
+          </div>
+          <div class="featured__container">
+            <input
+              class="featured__input"
+              type="radio"
+              name="controls"
+              id="page-1"
+            />
+
+            <input
+              class="featured__input"
+              type="radio"
+              name="controls"
+              id="page-2"
+            />
+
+            <input
+              class="featured__input"
+              type="radio"
+              name="controls"
+              id="page-3"
+              checked
+            />
+
+            <input
+              class="featured__input"
+              type="radio"
+              name="controls"
+              id="page-4"
+            />
+
+            <input
+              class="featured__input"
+              type="radio"
+              name="controls"
+              id="page-5"
+            />
+
+            <input
+              class="featured__input"
+              type="radio"
+              name="controls"
+              id="page-6"
+            />
+
+            <div class="featured__slider slider">
+              <div class="slider__page page">
+                <article class="page__content">
+                  <h5 class="page__title">
+                    Then they show that show to the<br />people who make shows
+                  </h5>
+                  <p class="page__description text">
+                    The path of the righteous man is beset on all sides by the
+                    iniquities of the selfish and the tyranny of evil men.
+                    Blessed is he who, in the name of charity and good will,
+                    shepherds the weak through the valley of darkness, for he is
+                    truly his brother's.
+                  </p>
+                </article>
+              </div>
+
+              <div class="slider__page page">
+                <article class="page__content">
+                  <h5 class="page__title">
+                    Then they show that show to the<br />people who make shows
+                  </h5>
+                  <p class="page__description text">
+                    The path of the righteous man is beset on all sides by the
+                    iniquities of the selfish and the tyranny of evil men.
+                    Blessed is he who, in the name of charity and good will,
+                    shepherds the weak through the valley of darkness, for he is
+                    truly his brother's.
+                  </p>
+                </article>
+              </div>
+
+              <div class="slider__page page">
+                <article class="page__content">
+                  <h5 class="page__title">
+                    Then they show that show to the<br />people who make shows
+                  </h5>
+                  <p class="page__description text">
+                    The path of the righteous man is beset on all sides by the
+                    iniquities of the selfish and the tyranny of evil men.
+                    Blessed is he who, in the name of charity and good will,
+                    shepherds the weak through the valley of darkness, for he is
+                    truly his brother's.
+                  </p>
+                </article>
+              </div>
+
+              <div class="slider__page page">
+                <article class="page__content">
+                  <h5 class="page__title">
+                    Then they show that show to the<br />people who make shows
+                  </h5>
+                  <p class="page__description text">
+                    The path of the righteous man is beset on all sides by the
+                    iniquities of the selfish and the tyranny of evil men.
+                    Blessed is he who, in the name of charity and good will,
+                    shepherds the weak through the valley of darkness, for he is
+                    truly his brother's.
+                  </p>
+                </article>
+              </div>
+
+              <div class="slider__page page">
+                <article class="page__content">
+                  <h5 class="page__title">
+                    Then they show that show to the<br />people who make shows
+                  </h5>
+                  <p class="page__description text">
+                    The path of the righteous man is beset on all sides by the
+                    iniquities of the selfish and the tyranny of evil men.
+                    Blessed is he who, in the name of charity and good will,
+                    shepherds the weak through the valley of darkness, for he is
+                    truly his brother's.
+                  </p>
+                </article>
+              </div>
+
+              <div class="slider__page page">
+                <article class="page__content">
+                  <h5 class="page__title">
+                    Then they show that show to the<br />people who make shows
+                  </h5>
+                  <p class="page__description text">
+                    The path of the righteous man is beset on all sides by the
+                    iniquities of the selfish and the tyranny of evil men.
+                    Blessed is he who, in the name of charity and good will,
+                    shepherds the weak through the valley of darkness, for he is
+                    truly his brother's.
+                  </p>
+                </article>
+              </div>
+            </div>
+
+            <div class="featured__controls-panel controls">
+              <label class="featured__select" for="page-1"></label>
+              <label class="featured__select" for="page-2"></label>
+              <label class="featured__select" for="page-3"></label>
+              <label class="featured__select" for="page-4"></label>
+              <label class="featured__select" for="page-5"></label>
+              <label class="featured__select" for="page-6"></label>
+            </div>
+          </div>
+
+          <div class="featured__controls controls__next">
+            <img
+              class="controls__next-image"
+              src="./icons/featured/Shape.svg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="our-team">
+          <section class="our-team__container">
+            <h2 class="our-team__title title-decor title-decor-cliped">
+              Our Team
+            </h2>
+            <div class="our-team__content">
+              <figure class="our-team__profile profile">
+                <img
+                  class="profile__picture"
+                  src="./images/our_team/img-1.jpg"
+                />
+                <figcaption class="profile__description">
+                  <span class="profile__name">BERNARD SPARKS</span>
+                  <span class="profile__specialization">CEO</span>
+                </figcaption>
+              </figure>
+
+              <figure class="our-team__profile profile">
+                <img
+                  class="profile__picture"
+                  src="./images/our_team/img-2.jpg"
+                />
+                <figcaption class="profile__description">
+                  <span class="profile__name">MINERVA BENSON</span>
+                  <span class="profile__specialization">Co-Founder</span>
+                </figcaption>
+              </figure>
+
+              <figure class="our-team__profile profile">
+                <img
+                  class="profile__picture"
+                  src="./images/our_team/img-3.jpg"
+                />
+                <figcaption class="profile__description">
+                  <span class="profile__name">JARED OLSON</span>
+                  <span class="profile__specialization">Sales</span>
+                </figcaption>
+              </figure>
+            </div>
+          </section>
+        </div>
+
+        <div class="pricing-plans">
+          <section class="pricing-plans__container">
+            <h3 class="pricing-plans__title title-decor title-decor-cliped">
+              Pricing Plans
+            </h3>
+
+            <div class="pricing-plans__content">
+              <section class="pricing-plans__sentnece sentence">
+                <h5 class="sentence__version">Basic</h5>
+                <article class="sentence__conditions">
+                  <h6 class="sentence__title">
+                    <sup class="sentence__title-supscript">$</sup>29<sub
+                      class="sentence__title-subscript"
+                      >/mo</sub
+                    >
+                  </h6>
+                  <span class="sentence__terms">1 Logo Design</span>
+                  <span class="sentence__terms">1 Website Design</span>
+                  <span class="sentence__terms">1 Domain Free</span>
+                  <span class="sentence__terms">3 Month License</span>
+                  <span class="sentence__terms">1 GB Storage</span>
+                </article>
+                <a class="sentence__choose" href="#">Choose plan</a>
+              </section>
+
+              <section class="pricing-plans__sentnece sentence">
+                <h5 class="sentence__version">Starter</h5>
+                <article class="sentence__conditions">
+                  <h6 class="sentence__title">
+                    <sup class="sentence__title-supscript">$</sup>50<sub
+                      class="sentence__title-subscript"
+                      >/mo</sub
+                    >
+                  </h6>
+                  <span class="sentence__terms">2 Logo Design</span>
+                  <span class="sentence__terms">2 Website Design</span>
+                  <span class="sentence__terms">1 Domain Free</span>
+                  <span class="sentence__terms">6 Month License</span>
+                  <span class="sentence__terms">1 GB Storage</span>
+                </article>
+                <a class="sentence__choose" href="#">Choose plan</a>
+              </section>
+
+              <section class="pricing-plans__sentnece sentence">
+                <h5 class="sentence__version">Professional</h5>
+                <article class="sentence__conditions">
+                  <h6 class="sentence__title">
+                    <sup class="sentence__title-supscript">$</sup>70<sub
+                      class="sentence__title-subscript"
+                      >/mo</sub
+                    >
+                  </h6>
+                  <span class="sentence__terms">3 Logo Design</span>
+                  <span class="sentence__terms">3 Website Design</span>
+                  <span class="sentence__terms">2 Domain Free</span>
+                  <span class="sentence__terms">12 Month License</span>
+                  <span class="sentence__terms">2 GB Storage</span>
+                </article>
+                <a class="sentence__choose" href="#">Choose plan</a>
+              </section>
+            </div>
+          </section>
+        </div>
+
+        <div class="contact">
+          <section class="contact__container">
+            <h4 class="contact__title title-decor title-decor-cliped">
+              Get in Touch
+            </h4>
+
+            <form class="contact__form form" action="$">
+              <input
+                class="form__input form__input-name"
+                type="text"
+                placeholder="Your name"
+              />
+
+              <input
+                class="form__input form__input-email"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Valid email"
+              />
+
+              <textarea
+                class="form__input form__input-message"
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Your message"
+              ></textarea>
+
+              <input class="form__button" type="submit" value="Send Message" />
+            </form>
+          </section>
+          <iframe class="contact__frame" src=""></iframe>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footer__top">
+          <div class="footer__logo logo">
+            <img class="" src="./icons/Logo.svg" alt="logo__img" />
+          </div>
+
+          <input class="footer-menu-input" type="checkbox" id="more-button" />
+          <label class="footer-menu-button" for="more-button">
+            <span>Menu</span>
+            <img
+              class="footer-menu-image"
+              src="./icons/less-button.svg"
+              alt=""
+            />
+
+            <div class="footer__menu menu">
+              <ul class="menu__list">
+                <li class="menu__item footer-menu__item">
+                  <a class="menu__link footer-menu__link" href="#">Facebook</a>
+                </li>
+                <li class="menu__item footer-menu__item">
+                  <a class="menu__link footer-menu__link" href="#">Twitter</a>
+                </li>
+                <li class="menu__item footer-menu__item">
+                  <a class="menu__link footer-menu__link" href="#">Google+</a>
+                </li>
+                <li class="menu__item footer-menu__item">
+                  <a class="menu__link footer-menu__link" href="#">Behance</a>
+                </li>
+                <li class="menu__item footer-menu__item">
+                  <a class="menu__link footer-menu__link" href="#">Dribble</a>
+                </li>
+                <li class="menu__item footer-menu__item">
+                  <a class="menu__link footer-menu__link" href="#">Instagram</a>
+                </li>
+              </ul>
+            </div>
+          </label>
+
+          <address class="footer__contacts">
+            <span class="footer__adress"
+              >Mese Selimovica 52, Banja Luka - BiH</span
+            >
+            <a class="footer__tel" href="#">(00387) 65 252 222</a>
+            <a class="footer__email" href="#">info@mail.com</a>
+          </address>
+
+          <a href="" class="footer__less-button">
+            <img src="./icons/less-button.svg" alt="" />
+          </a>
+        </div>
+
+        <div class="footer__bottom">@2015 Oxygen Theme</div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="start.js"></script>
+  </body>
+</html>
