@@ -21,7 +21,7 @@
   } else {
     // ! if you are created new script file, please do not forget add script file name to this array.
     // ! this is a for local testing the app.
-    const SCRIPT_URLS = ['start'];
+    const SCRIPT_URLS = ['start', 'navigation'];
 
     const elements = {
       CSS: document.querySelector('#css-href-id'),
