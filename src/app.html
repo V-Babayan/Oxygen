@@ -5,9 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oxygen</title>
-    <link rel="apple-touch-icon" href="assets/icons/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon.ico">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon.ico">
+
+    <link rel="apple-touch-icon" href="assets/icons/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/favicon.ico"
+    />
     <link rel="stylesheet" id="css-href-id" href="src/assets/css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300&family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@700&display=swap"
@@ -18,7 +29,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <div class="header__top">
+        <div class="header__top" id="route_top">
           <div class="header__inner">
             <div class="header__logo logo">
               <a class="header__link" href="#">
@@ -36,28 +47,40 @@
             <nav class="header__menu menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a class="menu__link" href="#">HOME</a>
+                  <button type="button" class="menu__link" id="link_home">
+                    HOME
+                  </button>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link" href="#">ABOUT US</a>
+                  <button type="button" class="menu__link" id="link_about">
+                    ABOUT US
+                  </button>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link" href="#">PORTFOLIO</a>
+                  <button type="button" class="menu__link" id="link_portfolio">
+                    PORTFOLIO
+                  </button>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link" href="#">OUR TEAM</a>
+                  <button type="button" class="menu__link" id="link_team">
+                    OUR TEAM
+                  </button>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link" href="#">BLOG</a>
+                  <button type="button" class="menu__link" id="link_pricing">
+                    PRICING
+                  </button>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link" href="#">CONTACT</a>
+                  <button type="button" class="menu__link" id="link_contact">
+                    CONTACT
+                  </button>
                 </li>
               </ul>
             </nav>
           </div>
         </div>
-        <div class="header__content">
+        <div class="header__content" id="route_home">
           <article class="header__content-inner">
             <h2 class="header__content-title">OXYGEN</h2>
             <p class="header__content-description">STARTER UI KIT</p>
@@ -67,7 +90,7 @@
       </header>
 
       <main>
-        <div class="about-us">
+        <div class="about-us" id="route_about">
           <section class="about-us__container">
             <h4 class="about-us__title title-decor">About Us</h4>
             <div class="about-us__text text">
@@ -247,7 +270,7 @@
           </section>
         </div>
 
-        <div class="portfolio">
+        <div class="portfolio" id="route_portfolio">
           <div class="portfolio__header">
             <section class="portfolio__container">
               <h2 class="portfolio__title title-decor title-decor-cliped">
@@ -619,7 +642,7 @@
           </div>
         </div>
 
-        <div class="our-team">
+        <div class="our-team" id="route_team">
           <section class="our-team__container">
             <h2 class="our-team__title title-decor title-decor-cliped">
               Our Team
@@ -670,7 +693,7 @@
           </section>
         </div>
 
-        <div class="pricing-plans">
+        <div class="pricing-plans" id="route_pricing">
           <section class="pricing-plans__container">
             <h3 class="pricing-plans__title title-decor title-decor-cliped">
               Pricing Plans
@@ -734,7 +757,7 @@
           </section>
         </div>
 
-        <div class="contact">
+        <div class="contact" id="route_contact">
           <section class="contact__container">
             <h4 class="contact__title title-decor title-decor-cliped">
               Get in Touch
@@ -767,14 +790,23 @@
               <input class="form__button" type="submit" value="Send Message" />
             </form>
           </section>
-          <iframe class="contact__frame" loading="lazy" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=%20Erevan+(Erevan)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+          <iframe
+            class="contact__frame"
+            loading="lazy"
+            src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=%20Erevan+(Erevan)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe>
         </div>
       </main>
 
       <footer>
         <div class="footer__top">
           <div class="footer__logo logo">
-            <img class="" src="src/assets/icons/Logo.svg" alt="logo" draggable="false"/>
+            <img
+              class=""
+              src="src/assets/icons/Logo.svg"
+              alt="logo"
+              draggable="false"
+            />
           </div>
 
           <input class="footer-menu-input" type="checkbox" id="more-button" />
@@ -819,9 +851,13 @@
             <a class="footer__email" href="#">info@mail.com</a>
           </address>
 
-          <a href="" class="footer__less-button">
-            <img src="src/assets/icons/less-button.svg" alt="Less button" draggable="false"/>
-          </a>
+          <button type="button" class="footer__less-button" id="link_top">
+            <img
+              src="src/assets/icons/less-button.svg"
+              alt="Less button"
+              draggable="false"
+            />
+          </button>
         </div>
 
         <div class="footer__bottom">@2015 Oxygen Theme</div>
@@ -829,6 +865,7 @@
     </div>
 
     <script type="text/javascript" src="src/start.js"></script>
+    <script type="text/javascript" src="src/navigation.js"></script>
     <script type="text/javascript" src="./local-server.js"></script>
   </body>
 </html>

@@ -70,8 +70,14 @@ address {
 
 input[type='radio'],
 input[type='checkbox'],
-progress {
+progress,
+button {
   appearance: none;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
 }
 
 html,
