@@ -1,26 +1,6 @@
 :root {
   --container-length: 75rem;
 }
-@media screen and (max-width: 1400px) {
-  :root {
-    --container-length: 1370px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  :root {
-    --container-length: 1170px;
-  }
-}
-@media screen and (max-width: 991.98px) {
-  :root {
-    --container-length: 960px;
-  }
-}
-@media screen and (max-width: 767.98px) {
-  :root {
-    --container-length: none;
-  }
-}
 
 *,
 *::after,
@@ -228,7 +208,7 @@ body {
   color: #1b1d1c;
 }
 
-@media screen and (max-width: 992.98px) {
+@media screen and (max-width: 991.98px) {
   .menu {
     position: absolute;
     transition: transform 0.5s linear;
