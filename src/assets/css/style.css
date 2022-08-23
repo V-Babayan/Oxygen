@@ -633,97 +633,79 @@ body {
 /* Vision
 ========= */
 .vision {
-  background-color: #f6f8fa;
   display: flex;
-  justify-content: center;
-  gap: 130px;
-}
-
-.vision__image-block {
-  flex: 0 1 705px;
-}
-
-.vision__image {
-  width: 100%;
+  background-color: #f6f8fa;
 }
 
 .vision__inner {
-  padding: 6.25rem 0 11.25rem;
-  flex: 0 0 480px;
+  padding-top: calc(1.5rem + 4.75 * (100vw - 20rem) / 70) ;
+  padding-bottom: calc(1.5rem + 9.75 * (100vw - 20rem) / 70);
 }
 
 .vision__title {
-  margin-bottom: 5.3rem;
+  margin-bottom: calc(1.5rem + 3.8 * (100vw - 20rem) / 70);
+}
+
+.vision__image {
+  max-width: 100%;
+}
+
+.vision__container {
+  padding: 0 .95rem;
 }
 
 .vision__text--paragraph:first-child {
   margin-bottom: 1.56rem;
 }
-@media screen and (min-width: 992px) {
-  .vision__image-block {
-    overflow: hidden;
-    position: relative;
-  }
 
-  .vision__image {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 705px;
-  }
-
+@media screen and (min-width: 1440px) {
   .vision__inner {
-    padding-right: 0.65rem;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .vision {
-    gap: 3.75rem;
-  }
-}
-
-@media screen and (max-width: 991.98px) {
-  .vision {
-    flex-direction: column-reverse;
-    align-items: center;
-    padding: 4rem 0.75rem 5rem;
-  }
-
-  .vision__image-block,
-  .vision__inner {
-    padding: 0 0.75rem;
-  }
-
-  .vision__inner {
-    flex-basis: auto;
-  }
-
-  .vision__image-block {
-    align-self: stretch;
-    flex-basis: auto;
-    max-width: 100%;
-  }
-
-  .vision__title {
-    margin-bottom: 2rem;
-  }
-
-  .vision__image {
-    width: 100%;
+    padding-left: 8.125rem;
   }
 }
 
 @media screen and (max-width: 767.98px) {
   .vision {
-    gap: 1.5rem;
+    flex-direction: column-reverse;
+  }
+
+  .vision__image-block {
+    margin: 0 auto;
+    padding: 0 .95rem;
   }
 }
 
-@media screen and (max-width: 575.98px) {
+@media screen and (min-width: 768px){
   .vision {
-    padding: 2rem 0.75rem 2.5rem;
+    overflow: hidden;
+  }
+
+  .vision__image-block {
+    flex: 0 0 50%;
+    position: relative;
+  }
+
+  .vision__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .vision__content {
+    flex: 0 0 100%;
+    transform: translateX(-50%);  
+  }
+
+  .vision__inner {
+    width: 50%;
+    margin-left: auto;
+    padding-left: calc(2rem + 6.125 * (100vw - 48rem) / 42);
   }
 }
+
 
 /* Portfolio 
 ============ */
