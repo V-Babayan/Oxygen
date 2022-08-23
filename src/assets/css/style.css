@@ -640,7 +640,6 @@ body {
 .vision__inner {
   padding-top: calc(1.5rem + 4.75 * (100vw - 20rem) / 70) ;
   padding-bottom: calc(1.5rem + 9.75 * (100vw - 20rem) / 70);
-  padding-left: 8.125rem;
 }
 
 .vision__title {
@@ -659,9 +658,9 @@ body {
   margin-bottom: 1.56rem;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .vision__inner {
-    padding-left: calc(2rem + 6.125 * (100vw - 48rem) / 42);
+    padding-left: 8.125rem;
   }
 }
 
@@ -703,6 +702,7 @@ body {
   .vision__inner {
     width: 50%;
     margin-left: auto;
+    padding-left: calc(2rem + 6.125 * (100vw - 48rem) / 42);
   }
 }
 
