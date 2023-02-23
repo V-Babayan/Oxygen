@@ -13,4 +13,4 @@
 
 ---
 
-**[Oxygen](https://oxygen-web.herokuapp.com/) 2022**
+**[Oxygen](https://https://v-babayan.github.io/Oxygen/) 2022**
